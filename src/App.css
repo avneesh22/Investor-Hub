@@ -1,0 +1,94 @@
+* {
+    scroll-behavior: smooth;
+    
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+.heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family: initial;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.6rem;
+    font-family: initial;
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6a106;
+    color: black;
+    font-size: 2rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.card-container :hover {
+    background-color: black;
+    color: #e6a106;
+    font-size: 2.1rem;
+    border-radius: 25%;
+}
+
+
+
+
+.activeCard {
+    background-color: black;
+    color: #e6a106;
+    font-size: 2.1rem;
+    border-radius: 25%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-family: initial;
+    font-weight: 900;
+}
+
+button {
+    cursor: pointer;
+}
+
+.liked {
+    background-color: black  !important;
+}
+
+.commentDiv {
+    text-align: left;
+    padding: 10px 0 10px 30px;
+    background: bisque;
+}
+
+.commentProfile {
+    font-weight: 800;
+        padding: 5px
+}
+
+.commentText {
+    padding-left: 10px;
+}
+
